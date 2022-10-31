@@ -17,67 +17,16 @@ body
 }
 
 
-#nick-user
+
+
+#btn-login-box
 {
-    float: right;
+    text-align: center;
+    margin-left: 93%;
     font-size: large;
     fill-opacity: 10%;
-    background-color: rgb(31, 28, 28);
-
-}
-
-#btn-user
-{
-    border: 1px solid;
-    border-color: rgb(0, 255, 0);
-   background-color: rgb(31, 28, 28);
-}
-
-#btn-user:hover
-{
-    background-color: rgb(45, 102, 45);
+    background-color: black;
     cursor: pointer;
-    
-
-}
-
-
-
-#nick-user
-{
-    float: right;
-    padding-left: 10px;
-    background-color:  rgb(31, 28, 28);
-    text-align: center;
-    
-
-    
-}
-
-
-#img-user
-{
-    float: left;
-   padding-top: 10px;
-   padding-right: 20px;
-}
-
-
-#user-box
-{
-    float: right;
-    background-color:  rgb(31, 28, 28);
-    display: flex;
-    
-
-
-}
-
-#btn-img-user
-{
-    background-color:  rgb(31, 28, 28);
-    border: 1px solid;
-    border-color: rgb(0, 255, 0);   
 }
 
 
