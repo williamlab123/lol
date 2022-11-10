@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+}
+#chat
+{
+    margin-left:  30%;
+    margin-top: 10%;
+    display: block;
+    background-color: rgb(22, 22, 22);
+    width: 500px;
+    height: 200px;
+}
+
+
+
+#img
+{
+    padding-top: 6%;
+    padding-left: 2%;
+}
+
+#input
+{
+    display: block;
+    background-color: rgb(22, 22, 22);
+    padding-left: 15%;
+    display: inline-block;
+    color: white;
+    height: 100px;
+    width: 364px;
+   
+
+}
+
+#input:hover
+{
+    cursor: pointer;
+}
