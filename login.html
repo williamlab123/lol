@@ -1,13 +1,14 @@
 <head>
     <link rel="stylesheet" href="./stylelogin.css">
     <link rel="shortcut icon" href="imgs/favicon (1).ico" type="image/x-icon">
+    <script src="./login.js"></script>
 </head>
 
 <body>
 
     <div id="img">
         <a href="./index.html">
-        <img src="./imgs/logo.png" width="250px" height="100px" alt="simple presence logo">
+        <img src="./lol.png" width="350px" height="100px" alt="simple presence logo">
         </a>
 
     </div>
@@ -18,14 +19,15 @@
         <div class="right-login">
             <div class="card-login">
                 <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <label for="login">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="login">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha⠀</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button onclick="logar()" class="btn-login">Login</button>
+                <button class="btn-rec-senha">Esqueci minha senha</button>
 
                 
             </div>
